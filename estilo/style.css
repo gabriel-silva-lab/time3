@@ -21,11 +21,17 @@ header{
 header h1{
     font-family: titulos;
     text-align: center;
+    height: 40px;
 }
 header img{
-    height: 12vh;
+    height: 14vh;
     padding-bottom: 5px;
 }
 main{
-    background-color: lime;
+    background-color: #c92311;
+}
+main h2{
+    font-family: corpo;
+    text-align: center;
+    padding-top: 20px;
 }
