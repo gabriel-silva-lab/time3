@@ -8,3 +8,16 @@
     font-family:corpo;
     src: url(../fontes/Heavitas.ttf);
 }
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background: url(../imgs/header.jpg) no-repeat center;
+    background-size: cover;
+    height: 20vh;}
+main{
+    background-color: lime;
+}
