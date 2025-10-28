@@ -2,7 +2,7 @@
 
 @font-face {
     font-family:titulos;
-    src: url(../fontes/ecolier/ecolier.rtf);
+    src: url(../fontes/ecolier/ec_cour.TTF);
 }
 @font-face {
     font-family:corpo;
@@ -15,9 +15,17 @@
 }
 
 header{
-    background: url(../imgs/header.jpg) no-repeat center;
-    background-size: cover;
-    height: 20vh;}
+    background-color: #740c06;
+    height: 20vh;
+}
+header h1{
+    font-family: titulos;
+    text-align: center;
+}
+header img{
+    height: 12vh;
+    padding-bottom: 5px;
+}
 main{
     background-color: lime;
 }
