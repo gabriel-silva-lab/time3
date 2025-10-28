@@ -35,3 +35,29 @@ main h2{
     text-align: center;
     padding-top: 20px;
 }
+main p{
+    font-family: corpo;
+    text-align: left;
+    padding: 10px;
+}
+main section{
+      padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
+  font-size: 3.5vh;
+}
+main section.imagem{
+
+}
+section.img{
+    padding: 10px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 1px 5px black;
+}
+#img1{
+    background-image: url(../imgs/header.jpg);
+background-position: right center;
+background-size: cover;
+}
