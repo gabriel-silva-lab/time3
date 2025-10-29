@@ -15,49 +15,22 @@
 }
 
 header{
-    background-color: #740c06;
-    height: 20vh;
+    background-color:#f42e17;
+    height: 18vh;
 }
-header h1{
-    font-family: titulos;
-    text-align: center;
-    height: 40px;
-}
+
 header img{
-    height: 14vh;
-    padding-bottom: 5px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
 }
 main{
-    background-color: #c92311;
-}
-main h2{
     font-family: corpo;
-    text-align: center;
-    padding-top: 20px;
+    background-color:#c92311;
+    padding: 20px;
 }
-main p{
-    font-family: corpo;
-    text-align: left;
-    padding: 10px;
-}
-main section{
-      padding-top: 10vh;
-  padding-bottom: 10vh;
-  line-height: 2em;
-  padding-left: 30px;
-  font-size: 3.5vh;
-}
-main section.imagem{
-
-}
-section.img{
-    padding: 10px;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.6);
-    text-shadow: 2px 1px 5px black;
-}
-#img1{
-    background-image: url(../imgs/header.jpg);
-background-position: right center;
-background-size: cover;
+main.text-img{
+  color: white;
+  width: 50vw;
+  height: 40vh;
 }
