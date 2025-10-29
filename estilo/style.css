@@ -22,26 +22,29 @@ header {
 }
 
 header img {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 }
 
 main{
-    background-color:#c92311 ;
+    background-color:#d62110;
 }
 main section.corpo1{
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    margin: auto;
 }
-
+#img1{
+    background-image: url(../imgs/abraao.jpg);
+    background-position: right center;
+background-size: cover;
+}
 main section img{
-    max-width: 50vw;
-    float: left;
-    border: 3pc slid white;
-    border-radius: 10px;
+    max-width: 30vw;
+    border-radius: 5px;
 }
 
 
