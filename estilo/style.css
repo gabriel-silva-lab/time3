@@ -1,36 +1,55 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family:titulos;
+    font-family: titulos;
     src: url(../fontes/ecolier/ec_cour.TTF);
 }
+
 @font-face {
-    font-family:corpo;
+    font-family: corpo;
     src: url(../fontes/Heavitas.ttf);
 }
 
-*{
+* {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
-header{
-    background-color:#f42e17;
+header {
+    background-color: #f42e17;
     height: 18vh;
 }
 
-header img{
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 main{
-    font-family: corpo;
-    background-color:#c92311;
-    padding: 20px;
+    background-color:#c92311 ;
 }
-main.text-img{
-  color: white;
-  width: 50vw;
-  height: 40vh;
+main section.corpo1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section img{
+    max-width: 50vw;
+    float: left;
+    border: 3pc slid white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.mine {
+    background-color: #b5180a;
+    text-align: center;
 }
