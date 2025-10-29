@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: titulos;
-    src: url(../fontes/ecolier/ec_cour.TTF);
+    src: url(../fontes/1/AppleGaramond-Bold.ttf);
 }
 
 @font-face {
     font-family: corpo;
-    src: url(../fontes/Heavitas.ttf);
+    src: url(../fontes/2/Butler_Black.otf);
 }
 
 * {
@@ -27,27 +27,18 @@ header img {
     margin-right: auto;
 }
 
-main{
-    background-color:#d62110;
-}
-main section.corpo1{
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    text-align: center;
-    margin: auto;
-}
-#img1{
-    background-image: url(../imgs/abraao.jpg);
-    background-position: right center;
-background-size: cover;
-}
-main section img{
-    max-width: 30vw;
-    border-radius: 5px;
+main {
+    background-color: #d62110;
+    font-family: corpo;
 }
 
-.faixa{
-    background-color: #96b50a;
+main section.text1 {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.faixa {
+    background-color: #f6ff00;
     text-align: center;
 }
